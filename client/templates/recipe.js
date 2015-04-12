@@ -60,6 +60,15 @@ Template.recipe.helpers({
 });
 
 Template.recipe.events({
+  'click .js-invest': function(event) {
+    event.preventDefault();
+
+    if (! Meteor.userId())
+      return Overlay.open('authOverlay');
+
+    console.log('invest');
+  },
+
   'click .js-add-bookmark': function(event) {
     event.preventDefault();
 
