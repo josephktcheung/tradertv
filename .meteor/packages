@@ -23,3 +23,5 @@ percolate:velocityjs
 percolate:wireframing
 mdg:camera
 mdg:geolocation
+coffeescript
+fortawesome:fontawesome
