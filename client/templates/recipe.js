@@ -52,6 +52,10 @@ Template.recipe.helpers({
   },
   activities: function() {
     return Activities.find({recipeName: this.name}, {sort: {date: -1}});
+  },
+  bookmarkCount: function () {
+    var count = BookmarkCounts.findOne({recipeName: this.name});
+    return count && count.count;
   }
 });
 
