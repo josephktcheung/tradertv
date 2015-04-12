@@ -1,0 +1,6 @@
+http://paletton.com/#uid=13-0u0kwi++bu++hX++++rd++kX
+
+Dark Blue:    #00376c
+Middle Dark:  #00488d
+Middle Light: #7bbeff
+Light Blue:   #aad5ff
