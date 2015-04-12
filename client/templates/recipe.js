@@ -22,6 +22,8 @@ Template.recipe.onRendered(function () {
     },
     preventDefaultEvents: false
   });
+  console.log(this);
+  Session.set('investName', this.data.name);
 });
 
 // CSS transitions can't tell the difference between e.g. reaching
@@ -63,10 +65,7 @@ Template.recipe.events({
   'click .js-invest': function(event) {
     event.preventDefault();
 
-    if (! Meteor.userId())
-      return Overlay.open('authOverlay');
-
-    console.log('invest');
+    return Overlay.open('investOverlay');
   },
 
   'click .js-add-bookmark': function(event) {

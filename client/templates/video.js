@@ -23,7 +23,6 @@ Template.comment.helpers({
 
 Template.video.events({
   'submit form': function (event) {
-    console.log('hi');
     event.preventDefault();
 
     var text = $(event.target).find('[name=text]').val();
