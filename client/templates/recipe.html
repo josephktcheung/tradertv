@@ -23,7 +23,7 @@
       <div class="btns-group">
         {{#if bookmarked}}
           <a class="btn-secondary no-state js-remove-bookmark">Subscribed</a>
-          <a class="btn-secondary no-state js-watch">Watch Now!</a>
+          <a class="btn-secondary no-state js-watch" href="{{pathFor 'video'}}">Watch Now!</a>
         {{else}}
           <a class="btn-secondary no-state js-add-bookmark">Subscribe</a>
         {{/if}}
