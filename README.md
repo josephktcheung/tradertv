@@ -35,6 +35,10 @@ Trading Live Broadcasting Platform for easy access of great traders and trading 
 1. Investor makes moves
   1. Q&A
 
+## Market Size
+1. [HBR Untapped Market](https://hbr.org/2014/12/the-financial-services-industrys-untapped-market)
+
+
 ## Business Model
 1. Subscribe, take a % cut.
 2. Invest, take a % cut.
@@ -60,6 +64,6 @@ Trading Live Broadcasting Platform for easy access of great traders and trading 
     + Watching the stream, Q&A are all things you can be doing while on the go.
     + And if you feel comfortable about this guy
 
-1. 
+1.
 
 1. 
