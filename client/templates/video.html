@@ -1,0 +1,48 @@
+<template name="video">
+
+  <div class="page recipe">
+    {{#nav title='Live Trade' black=true back=true}}
+      {{#if bookmarked}}
+        <a href="#" class="nav-item js-remove-bookmark bookmarked"><span class="icon-bookmark"></span></a>
+      {{else}}
+        <a href="#" class="nav-item js-add-bookmark"><span class="icon-bookmark-hollow"></span></a>
+      {{/if}}
+      <a href="#" class="nav-item js-share"><span class="icon-camera"></span></a>
+    {{/nav}}
+
+    <div class="image-video">
+      <iframe width="360" height="300" src="https://www.youtube.com/embed/PPOKFep_Oeg" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="comments">
+      {{#each comments}}
+        {{> comment}}
+      {{else}}
+      <div class="wrapper-message">
+        <div class="title-message">No comment yet!</div>
+        <div class="subtitle-message">Share your comment here.</div>
+      </div>
+      {{/each}}
+    </div>
+
+    <div class="comments-input">
+      <form>
+      <input name="text" placeholder="Comment here">
+      </form>
+    </div>
+  </div>
+</template>
+
+<template name="comment">
+  <a href="{{path}}" class="item-activity">
+
+    <span class="attribution">
+      <span class="avatar">
+        <img src="{{userAvatar}}" class="image-avatar">
+      </span>
+      <span class="meta">
+        <span class="author">{{userName}}: {{text}}</span>
+      </span>
+    </span>
+  </a>
+</template>

@@ -71,14 +71,14 @@ Template.recipe.events({
     Meteor.call('unbookmarkRecipe', this.name);
   },
 
-  'click .js-watch': function(event) {
-    event.preventDefault();
+  // 'click .js-watch': function(event) {
+  //   event.preventDefault();
 
-    if (! Meteor.userId())
-      return Overlay.open('authOverlay');
+  //   if (! Meteor.userId())
+  //     return Overlay.open('authOverlay');
 
-    console.log("watch");
-  },
+  //   console.log("watch");
+  // },
 
   'click .js-show-recipe': function(event) {
     event.stopPropagation();

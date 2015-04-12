@@ -1,0 +1,29 @@
+.image-video {
+    .transform(translate3d(0,0,0));//Gpu rendering
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
+    &:before {
+      .position(absolute, 0,0,0,0);
+      background: rgba(0,0,0,.3);
+      content: '';
+      opacity: 0;
+      z-index: 2;
+    }
+  }
+
+.comments-input {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  background: @color-raw;
+  input {
+    width: 100%;
+    height: 50px;
+  }
+}
