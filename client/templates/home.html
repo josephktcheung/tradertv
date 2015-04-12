@@ -8,8 +8,6 @@
         <h1 class="title-home">
           <img src="img/app/logo-local.png" alt="Trader TV"/>
         </h1>
-        <span class="hours"><span class="title-callout">Hours</span>
-        Mon–Fri 9-6pm, Sat 10-5pm</span>
         <span class="arrow"></span>
       </div>
 
@@ -18,8 +16,8 @@
         {{latestNews.text}}
       </div>
 
-      <h2 class="list-title">What's Cooking</h2>
-      <div class="list-subtitle">See what the community is cooking</div>
+      <h2 class="list-title">Who's Trading Live</h2>
+      <div class="list-subtitle">Learn how trading geniuses are trading at real time</div>
       <div class="list-activities">
         {{#each activities}}
           {{> activity}}
@@ -30,10 +28,10 @@
           </div>
         {{/each}}
       </div>
-      <a href="{{pathFor 'feed'}}" class="btn-primary">See what's cooking</a>
+      <a href="{{pathFor 'feed'}}" class="btn-primary">See who's trading</a>
 
-      <h2 class="list-title">Our Favorite Recipes</h2>
-      <div class="list-subtitle">Hand-picked by neighborhood chefs</div>
+      <h2 class="list-title">Popular Trade Geniuses</h2>
+      <div class="list-subtitle">Most liked by investors</div>
       <div class="list-recipes">
         {{#each featuredRecipes}}
           {{> recipeItem recipe=this size='small'}}
