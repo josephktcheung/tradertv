@@ -64,6 +64,10 @@ Trading Live Broadcasting Platform for easy access of great traders and trading 
     + Watching the stream, Q&A are all things you can be doing while on the go.
     + And if you feel comfortable about this guy
 
-1.
+1. Watching someone invest is boring as hell
+  + Watching creates a strong level of trust.
+    + I can see what you're doing, transparency.
+  + The subscribe Q&A is actually where you'll make a lot of your decision
+  + 
 
 1. 
