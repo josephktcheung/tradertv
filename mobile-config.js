@@ -1,9 +1,9 @@
 App.info({
-  name: 'Local Market',
-  description: 'A recipe sharing app made in Meteor.',
-  author: 'Percolate Studio Team',
-  email: 'us@percolatestudio.com',
-  website: 'http://percolatestudio.com',
+  name: 'TraderTV',
+  description: 'Help investors to learn investment better.',
+  author: 'TraderTV',
+  email: 'info@tradertv.com',
+  website: 'http://tradertv.com',
   version: '0.0.1'
 });
 
