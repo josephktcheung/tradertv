@@ -7,6 +7,10 @@ Template.video.helpers({
   }
 });
 
+Template.video.onRendered(function() {
+  iframe = $('iframe');
+  iframe.css('width', window.innerWidth);
+});
 
 Template.comment.helpers({
   firstName: function() {
@@ -26,7 +30,7 @@ Template.video.events({
 
     // Comments.insert({ text: text, date: new Date, recipeName: this.name });
     Meteor.call('createComment', {
-      recipeName: self.name,
+      recipeName: this.name,
       text: text
     }, function (error, result) {
       if (error) {
